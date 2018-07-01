@@ -86,8 +86,8 @@ p.rss-subscribe {
     background-color: $banner-color;
 }
 
-.header li a {
-    color: pink;
+.header li a,
+nav a {
     color: $muted-color;
 }
 
@@ -95,7 +95,11 @@ p.rss-subscribe {
     background-position: center;
     background-size: cover;
     background-image: url('./img/denali.jpg');
-    padding: 8rem;
+    padding: 8rem 0;
+
+    @media #{$medium-and-down} {
+        padding: 4rem 0;
+    }
 
     img {
         margin: 0 auto;
@@ -106,8 +110,16 @@ p.rss-subscribe {
 
 .sanders-quote {
     padding: 8rem 0;
+
+    @media #{$medium-and-down} {
+        padding: 4rem 0;
+    }
     h1 {
         color: $primary-color;
+
+        @media #{$medium-and-down} {
+            font-size: 3rem;
+        }
     }
 
     .attribute {
@@ -128,7 +140,7 @@ p.rss-subscribe {
 }
 
 .about {
-    margin-top: 4rem;
+    margin: 4rem auto;
     font-size: 1.5rem;
 }
 
