@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: "Roboto";
-    src: local(Roboto Regular), 
+    src: local(Roboto Regular),
         url("#{$roboto-font-path}Roboto-Regular.woff2") format("woff2"),
         url("#{$roboto-font-path}Roboto-Regular.woff") format("woff");
     font-weight: 400;
@@ -35,5 +35,36 @@
     src: local(Roboto Bold),
         url("#{$roboto-font-path}Roboto-Bold.woff2") format("woff2"),
         url("#{$roboto-font-path}Roboto-Bold.woff") format("woff");
+    font-weight: 700;
+}
+
+// Noto Sans
+
+@font-face {
+    font-family: "NotoSans";
+    src: local(Roboto Regular),
+        url("#{$noto-font-path}NotoSans-Regular.ttf") format("ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "NotoSans";
+    src: local(NotoSans Italic),
+        url("#{$noto-font-path}NotoSans-Italic.ttf") format("ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "NotoSans";
+    src: local(NotoSans Bold),
+        url("#{$noto-font-path}NotoSans-Bold.ttf") format("ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "NotoSans";
+    src: local(NotoSans BoldItalic),
+        url("#{$noto-font-path}NotoSans-BoldItalic.ttf") format("ttf");
     font-weight: 700;
 }

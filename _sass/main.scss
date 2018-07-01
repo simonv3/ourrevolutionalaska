@@ -1,5 +1,17 @@
 @charset "utf-8";
 
+@import "materialize/components/variables";
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 15rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
 }
@@ -64,4 +76,65 @@ h1.page-title {
 }
 p.rss-subscribe {
     margin: 0;
+}
+
+.brand-logo {
+    margin-top: .5rem;
+}
+
+.header {
+    background-color: $banner-color;
+}
+
+.header li a {
+    color: pink;
+    color: $muted-color;
+}
+
+.banner {
+    background-position: center;
+    background-size: cover;
+    background-image: url('/assets/img/denali.jpg');
+    padding: 8rem;
+
+    img {
+        margin: 0 auto;
+        max-width: 80%;
+        display: block;
+    }
+}
+
+.sanders-quote {
+    padding: 8rem 0;
+    h1 {
+        color: $primary-color;
+    }
+
+    .attribute {
+        text-align: right;
+        color: lighten($muted-color, 20%);
+        font-size: 2rem;
+        font-style: italic;
+    }
+
+    .cta {
+        margin-top: 4rem;
+        text-align: center;
+    }
+}
+
+.page-content {
+    max-width: 640px;
+}
+
+.about {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+}
+
+.page-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
