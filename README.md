@@ -1,20 +1,11 @@
-# Jekyll Materialize Starter Template v0.1
+# Our Revolution Alaska Website
 
-*A Site Starter Materialize Templates.
+This is the website for Our Revolution Alaska.
 
-The theme is a fork of the [minima][1]
+It's a jekyll theme
 
-![minima theme preview](/screenshot.png)
-
-
-# License
-
-The theme is available as open source under the terms of the [MIT License][2].
-
-[Materialize][3] a  modern responsive front-end framework based on Material Design
-
-Copyright © 2017 Marco Damiani. Powered by <a href="http://jekyllrb.com">Jekyll</a>
-
-[1]: https://github.com/jekyll/minima
-[2]: https://opensource.org/licenses/MIT
-[3]: http://materializecss.com/
+```
+git clone git@github.com:simonv3/ourrevolutionalaska
+cd ourrevolutionalaska
+jekyll serve
+```
