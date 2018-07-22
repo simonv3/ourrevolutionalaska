@@ -109,40 +109,24 @@ nav a {
     }
 }
 
-.sanders-quote {
-    padding: 8rem 0;
-
-    @media #{$medium-and-down} {
-        padding: 4rem 0;
-    }
-    h1 {
-        color: $primary-color;
-
-        @media #{$medium-and-down} {
-            font-size: 3rem;
-        }
-    }
-
-    .attribute {
-        text-align: right;
-        color: lighten($muted-color, 20%);
-        font-size: 2rem;
-        font-style: italic;
-    }
-
-    .cta {
-        margin-top: 4rem;
-        text-align: center;
-    }
-}
-
 .page-content {
     max-width: 640px;
 }
 
 .intro {
     font-size: 2rem;
+    padding-top: 2rem;
+
     max-width: 640px;
+    @media #{$medium-and-down} {
+        font-size: 1.2rem
+    }
+
+    .cta {
+        margin-top: 4rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
 }
 
 .about {
